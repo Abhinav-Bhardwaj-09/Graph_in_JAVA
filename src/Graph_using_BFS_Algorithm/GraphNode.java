@@ -1,4 +1,6 @@
 package Graph_using_BFS_Algorithm;
+import java.util.*;
+import javax.crypto.spec.PSource;
 
 /**
  * Created by IntelliJ IDEA.
@@ -13,4 +15,11 @@ public class GraphNode {
     public GraphNode(int value) {
         this.value = value;
     }
+
+    public String toString(){
+        return value + " " ;
+    }
+
+    GraphNode obj = new GraphNode(1);
+
 }

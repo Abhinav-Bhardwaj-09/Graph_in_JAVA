@@ -8,4 +8,14 @@ package Graph_using_BFS_Algorithm;
  */
 
 public class Main {
+    public static void main(String[] args) {
+        MyGraph obj = new MyGraph(5);
+        obj.add_UndirectedEdges(0, 1);
+        obj.add_UndirectedEdges(0, 2);
+        obj.add_UndirectedEdges(1, 3);
+        obj.add_UndirectedEdges(1, 4);
+
+        System.out.println(obj);
+
+    }
 }
